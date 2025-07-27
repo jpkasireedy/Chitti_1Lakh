@@ -1,0 +1,5 @@
+{
+  "name": "Chitti",
+  "description": "A comprehensive chit fund management application for a closed group. It allows an administrator to manage members, track payments, and oversee the monthly chit distribution, while members can view their payment status and chit details.",
+  "requestFramePermissions": []
+}
