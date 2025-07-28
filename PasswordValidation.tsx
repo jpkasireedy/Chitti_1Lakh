@@ -1,5 +1,5 @@
 import React from 'react';
-import { validatePassword } from '../utils/validation';
+import { validatePassword } from '../validation';
 import { CheckCircleIcon, XCircleIcon } from './Icon';
 
 interface PasswordValidationProps {
