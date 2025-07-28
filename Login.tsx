@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { dataService } from '../services/dataService';
+import { dataService } from '../dataService';
 import { User } from '../types';
 import { EyeIcon, EyeOffIcon } from './Icon';
-import { useToast } from '../contexts/ToastContext';
+import { useToast } from '../ToastContext';
 
 interface LoginProps {
   onLogin: (user: User) => void;
