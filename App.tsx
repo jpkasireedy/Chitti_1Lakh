@@ -4,7 +4,7 @@ import AdminDashboard from "./AdminDashboard";
 import MemberDashboard from "./MemberDashboard";
 import { Header } from "./Header";
 import { User, UserRole } from "./types";
-import { dataService } from "./dataService";
+import { ... } from "../dataService";
 import { ToastProvider } from "./ToastContext";
 
 const App: React.FC = () => {
