@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { User } from '../types';
 import { LogoutIcon, UserIcon } from './Icon';
 import ConfirmationModal from './ConfirmationModal';
-import { useToast } from '../contexts/ToastContext';
+import { useToast } from '../ToastContext';
 
 interface HeaderProps {
   user: User;
