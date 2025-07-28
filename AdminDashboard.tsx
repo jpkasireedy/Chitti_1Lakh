@@ -1,13 +1,13 @@
 import React, { useState, useCallback, useMemo, useEffect, useRef } from 'react';
-import { dataService } from '../services/dataService';
+import { dataService } from '../dataService';
 import { User, ChitConfig } from '../types';
 import { CheckCircleIcon, XCircleIcon, CrownIcon, CogIcon, KeyIcon, UserPlusIcon, UserCogIcon, TrashIcon, InformationCircleIcon } from './Icon';
-import { calculateCurrentChitMonth } from '../utils/dateUtils';
+import { calculateCurrentChitMonth } from '../dateUtils';
 import PasswordValidation from './PasswordValidation';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import Modal from './Modal';
 import ConfirmationModal from './ConfirmationModal';
-import { useToast } from '../contexts/ToastContext';
+import { useToast } from '../ToastContext';
 
 const ActionPopover: React.FC<{ onPaid: () => void; onAssign: () => void; onClose: () => void; canAssign: boolean; }> = ({ onPaid, onAssign, canAssign }) => (
     <div className="absolute top-10 right-0 z-20 bg-white rounded-lg shadow-xl border border-gray-200 w-40 text-sm p-1">
