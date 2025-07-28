@@ -1,7 +1,7 @@
 
 import { User, UserRole, Payment, ChitMonth, UpiDetails, ChitConfig } from '../types';
 import { DEFAULT_CHIT_CONFIG, ADMIN_USERNAME, DEFAULT_ADMIN_PASSWORD } from '../constants';
-import { validatePassword } from '../utils/validation';
+import { validatePassword } from '../validation';
 
 class DataService {
   private users: User[];
