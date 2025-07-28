@@ -1,12 +1,12 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { dataService } from '../services/dataService';
+import { dataService } from '../dataService';
 import { User, Payment, ChitMonth, UpiDetails, ChitConfig } from '../types';
 import { CheckCircleIcon, XCircleIcon, CrownIcon, KeyIcon } from './Icon';
-import { calculateCurrentChitMonth } from '../utils/dateUtils';
+import { calculateCurrentChitMonth } from '../dateUtils';
 import PasswordValidation from './PasswordValidation';
 import { PieChart, Pie, Cell, ResponsiveContainer, Legend, Tooltip } from 'recharts';
 import Modal from './Modal';
-import { useToast } from '../contexts/ToastContext';
+import { useToast } from '../ToastContext';
 
 interface MemberDashboardProps {
   user: User;
