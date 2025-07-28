@@ -1,5 +1,5 @@
 import React, { createContext, useState, useCallback, useContext } from 'react';
-import ToastContainer from '../components/Toast';
+import ToastContainer from '../Toast';
 
 type ToastType = 'success' | 'error' | 'info';
 
